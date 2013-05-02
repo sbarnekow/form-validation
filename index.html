@@ -6,36 +6,35 @@
   </head>
 
   <body>
-    <div id="formBox">
-      <form id="form" action="" method="post">
-        <input type="text" id="inputName" placeholder='Name'>
-        <span id="nameSpan"></span>
+    <br />
+    <div class="container">
+      <div id="formBox">
+        <form id="form" action="" method="post">
+          <input type="text" id="inputName" placeholder='Name'>
+          <span id="nameSpan"></span>
+          <br />
+          <input type="text" id="inputAge" placeholder="Age">
+          <span id="ageSpan"></span>
+          <br />
+          <input type="text" id="inputPhone" placeholder="Phone">
+          <span id="phoneSpan"></span>
+          <span>Do not use parentheses</span>
+          <br />
+          <input type="text" id="inputEmail" placeholder="Email">
+          <span id="emailSpan"></span>
+          <br />
+          <button type="submit" id="inputSubmit">Submit</button>
+        </form>
+      </div>
+      <div id="displayBox">
+        <ul id="formList">
 
-        <br />
-        <input type="text" id="inputAge" placeholder="Age">
-        <span id="ageSpan"></span>
+        </ul>
 
-        <br />
-        <input type="text" id="inputPhone" placeholder="Phone">
-        <span>Do not use parentheses</span>
-        <span id="phoneSpan"></span>
-
-        <br />
-        <input type="text" id="inputEmail" placeholder="Email">
-        <span id="emailSpan"></span>
-
-        <br />
-        <button type="submit" id="inputSubmit">Submit</button>
-      </form>
-    </div>
-    <div id="displayBox">
-      <ul id="formList">
-
-      </ul>
-
-    </div>
-    <div id="clearBox">
-      <button id="clearButton" >Clear</button>
+      </div>
+      <div id="clearBox">
+        <button id="clearButton" >Clear</button>
+      </div>
     </div>
     <script src="validate.js"></script>
   </body>
